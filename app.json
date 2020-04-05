@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "جمعيه طريف",
+    "slug": "Association",
+    "privacy": "public",
+    "sdkVersion": "36.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "2.0.5",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.aait.tarif",
+      "infoPlist": {
+        "NSCameraUsageDescription": "We need this permession to add photos to your requests.",
+        "NSLocationWhenInUseUsageDescription": "app need location to show the nearest requests of you.",
+        "NSLocationAlwaysUsageDescription": "app need location to show the nearest requests of you.",
+        "NSMotionUsageDescription": "app need location to show the nearest requests of you.",
+        "NSPhotoLibraryAddUsageDescription": "We need this permession to add photos to your requests.",
+        "NSPhotoLibraryUsageDescription": "We need this permession to add photos to your requests"
+      }
+    },
+    "android": {
+      "package": "com.aait.tarif",
+      "versionCode": 9
+    }
+  }
+}
